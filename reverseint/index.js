@@ -13,5 +13,3 @@ function reverseInt(n) {
 
   return reversedInt * Math.sign(n)
 }
-
-module.exports = reverseInt;
