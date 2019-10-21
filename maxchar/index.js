@@ -5,14 +5,12 @@
 // maxChar("abcccccccd") === "c"
 // maxChar("apple 1231111") === "1"
 
-function maxChar(str) {
-  var stringObject = {}
-  str.split("").forEach((char) => {
-    stringObject[char] ? stringObject[char] ++ : stringObject[char] = 1
+function maxChar(string) {
+  var characterMap = {}
+  string.split("").forEach((char) => {
+    characterMap[char] ? characterMap[char] ++ : characterMap[char] = 1
   })
-  return Object.keys(stringObject).reduce((a, b) => {
-    return (stringObject[a] > stringObject[b] ? a : b)
+  return Object.keys(characterMap).reduce((a, b) => {
+    return (characterMap[a] > characterMap[b] ? a : b)
   })
 }
-
-module.exports = maxChar;
