@@ -28,4 +28,11 @@ function fizzBuzz(n) {
   }
 }
 
-module.exports = fizzBuzz;
+function fizzbuzz(n) {
+  var counter = 0
+
+  while(counter <= n) {
+
+    counter = counter + 1
+  }
+}
