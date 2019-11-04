@@ -11,17 +11,35 @@
 function chunk(array, size) {
   var originalSize = size
   var subArray = []
-  var newArray = []
+  var resultArray = []
+
   while(array.length > 0){
     while(size > 0 && array.length > 0){
       subArray.push(array.shift())
       size --
     }
-    newArray.push(subArray)
+    resultArray.push(subArray)
     size = originalSize
     subArray = []
   }
-  return newArray
+  return resultArray
+}
+
+
+function chunk(array, size) {
+  var originalSize = size
+  var subArray = []
+  var resultArray = []
+  while(array.length > 0){
+    while(size > 0 && array.length > 0){
+      subArray.push(array.shift())
+      size --
+    }
+    resultArray.push(subArray)
+    size = originalSize
+    subArray = []
+  }
+  return resultArray
 }
 
 module.exports = chunk;
