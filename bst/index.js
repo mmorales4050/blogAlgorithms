@@ -12,5 +12,3 @@
 // and return the Node in the tree with the same value.
 
 class Node {}
-
-module.exports = Node;
