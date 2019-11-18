@@ -41,5 +41,3 @@ function chunk(array, size) {
   }
   return resultArray
 }
-
-module.exports = chunk;
