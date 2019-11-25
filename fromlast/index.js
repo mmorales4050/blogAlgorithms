@@ -20,5 +20,3 @@ function fromLast(list, n) {
   }
   return slow
 }
-
-module.exports = fromLast;
