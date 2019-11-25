@@ -12,5 +12,3 @@
 // Answer: [1, 3, 2]
 
 function levelWidth(root) {}
-
-module.exports = levelWidth;
