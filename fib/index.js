@@ -47,5 +47,3 @@ function fib(n) {
 }
 
 fib = memoize(fib)
-
-module.exports = fib;
