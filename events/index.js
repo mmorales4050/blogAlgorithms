@@ -15,5 +15,3 @@ class Events {
   // with the given eventName
   off(eventName) {}
 }
-
-module.exports = Events;
