@@ -27,6 +27,3 @@ function pyramid(n) {
     counter ++
   }
 }
-
-
-module.exports = pyramid;
