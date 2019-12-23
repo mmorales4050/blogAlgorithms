@@ -21,5 +21,3 @@ class Queue {
     return this.data.pop(record)
   }
 }
-
-module.exports = Queue;
