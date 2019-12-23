@@ -15,5 +15,3 @@ class Stack {
     return this.data[this.data.length - 1];
   }
 }
-
-module.exports = Stack;

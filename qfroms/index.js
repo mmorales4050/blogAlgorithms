@@ -46,5 +46,3 @@ class Queue {
     return result
   }
 }
-
-module.exports = Queue;
