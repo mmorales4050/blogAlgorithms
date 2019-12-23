@@ -39,5 +39,3 @@ function steps(n) {
     console.log(string)
   })
 }
-
-module.exports = steps;
