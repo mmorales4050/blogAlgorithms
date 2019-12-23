@@ -12,5 +12,3 @@ function reverse(str) {
     return char + reversed
   })
 }
-
-module.exports = reverse;
